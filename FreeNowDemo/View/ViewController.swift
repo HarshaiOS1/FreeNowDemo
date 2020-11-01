@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Welcome to Free Now!"
+        self.title = "Welcome to Free Now..!"
     }
     
     @IBAction func vehicalInfoButtonAction(_ sender: Any) {

@@ -17,7 +17,6 @@
 		AA36FDC5254B21B600538D63 /* FreeNowDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDC4254B21B600538D63 /* FreeNowDemoUITests.swift */; };
 		AA36FDEF254B321F00538D63 /* HamburgVehicalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDEE254B321F00538D63 /* HamburgVehicalListViewController.swift */; };
 		AA36FDF5254B33AA00538D63 /* VehicalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */; };
-		AA9A2A64254C8A0D00CA8E7D /* VehicalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9A2A63254C8A0D00CA8E7D /* VehicalTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		AA36FDC6254B21B600538D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA36FDEE254B321F00538D63 /* HamburgVehicalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgVehicalListViewController.swift; sourceTree = "<group>"; };
 		AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalTableViewCell.swift; sourceTree = "<group>"; };
-		AA9A2A63254C8A0D00CA8E7D /* VehicalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicalTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */,
-				AA9A2A63254C8A0D00CA8E7D /* VehicalTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -272,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9A2A64254C8A0D00CA8E7D /* VehicalTableViewCell.xib in Resources */,
 				AA36FDAF254B21B600538D63 /* LaunchScreen.storyboard in Resources */,
 				AA36FDAC254B21B600538D63 /* Assets.xcassets in Resources */,
 				AA36FDAA254B21B500538D63 /* Main.storyboard in Resources */,

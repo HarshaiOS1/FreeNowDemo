@@ -23,6 +23,6 @@ class VehicalTableViewCell: UITableViewCell {
     }
     
     func updateUI() {
-        self.contentView.backgroundColor = UIColor.lightGray
+        self.contentView.backgroundColor = UIColor.lightText
     }
 }
