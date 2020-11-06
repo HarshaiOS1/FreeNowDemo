@@ -17,6 +17,9 @@
 		AA36FDC5254B21B600538D63 /* FreeNowDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDC4254B21B600538D63 /* FreeNowDemoUITests.swift */; };
 		AA36FDEF254B321F00538D63 /* HamburgVehicalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDEE254B321F00538D63 /* HamburgVehicalListViewController.swift */; };
 		AA36FDF5254B33AA00538D63 /* VehicalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */; };
+		AA4C6ECD254F26B100FC8E23 /* VehicalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C6ECC254F26B100FC8E23 /* VehicalListViewModel.swift */; };
+		AA4C6ED2254F274C00FC8E23 /* VehicalListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C6ED1254F274C00FC8E23 /* VehicalListModel.swift */; };
+		AA4C6ED8254F27F900FC8E23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C6ED7254F27F900FC8E23 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		AA36FDC6254B21B600538D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA36FDEE254B321F00538D63 /* HamburgVehicalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgVehicalListViewController.swift; sourceTree = "<group>"; };
 		AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalTableViewCell.swift; sourceTree = "<group>"; };
+		AA4C6ECC254F26B100FC8E23 /* VehicalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalListViewModel.swift; sourceTree = "<group>"; };
+		AA4C6ED1254F274C00FC8E23 /* VehicalListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicalListModel.swift; sourceTree = "<group>"; };
+		AA4C6ED7254F27F900FC8E23 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +114,8 @@
 				AA36FDD5254B2AB600538D63 /* Model */,
 				AA36FDD7254B2AD700538D63 /* ViewModel */,
 				AA36FDD6254B2ABE00538D63 /* View */,
-				AA36FDA8254B21B500538D63 /* Main.storyboard */,
+				AA4C6ED6254F27C000FC8E23 /* Resources */,
 				AA36FDAB254B21B600538D63 /* Assets.xcassets */,
-				AA36FDAD254B21B600538D63 /* LaunchScreen.storyboard */,
 				AA36FDB0254B21B600538D63 /* Info.plist */,
 			);
 			path = FreeNowDemo;
@@ -137,6 +142,7 @@
 		AA36FDD5254B2AB600538D63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA4C6ED1254F274C00FC8E23 /* VehicalListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 		AA36FDD7254B2AD700538D63 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AA4C6ECC254F26B100FC8E23 /* VehicalListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,6 +171,24 @@
 				AA36FDF4254B33AA00538D63 /* VehicalTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		AA4C6ED6254F27C000FC8E23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C6EDF254F281400FC8E23 /* Storyboards */,
+				AA4C6ED7254F27F900FC8E23 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA4C6EDF254F281400FC8E23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA36FDAD254B21B600538D63 /* LaunchScreen.storyboard */,
+				AA36FDA8254B21B500538D63 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +325,10 @@
 				AA36FDA3254B21B500538D63 /* AppDelegate.swift in Sources */,
 				AA36FDF5254B33AA00538D63 /* VehicalTableViewCell.swift in Sources */,
 				AA36FDEF254B321F00538D63 /* HamburgVehicalListViewController.swift in Sources */,
+				AA4C6ECD254F26B100FC8E23 /* VehicalListViewModel.swift in Sources */,
+				AA4C6ED2254F274C00FC8E23 /* VehicalListModel.swift in Sources */,
 				AA36FDA5254B21B500538D63 /* SceneDelegate.swift in Sources */,
+				AA4C6ED8254F27F900FC8E23 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
