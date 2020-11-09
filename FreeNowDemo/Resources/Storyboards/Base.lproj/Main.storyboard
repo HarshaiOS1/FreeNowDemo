@@ -183,6 +183,35 @@
             </objects>
             <point key="canvasLocation" x="-726" y="769"/>
         </scene>
+        <!--Vehicals In Map View Controller-->
+        <scene sceneID="pc9-qx-EWu">
+            <objects>
+                <viewController storyboardIdentifier="VehicalsInMapViewController" id="HAF-Fd-waK" customClass="VehicalsInMapViewController" customModule="FreeNowDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2aU-UI-nGK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Fmq-k1-bSn">
+                                <rect key="frame" x="10" y="54" width="394" height="798"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Rc-mP-IPy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Rc-mP-IPy" firstAttribute="bottom" secondItem="Fmq-k1-bSn" secondAttribute="bottom" constant="10" id="3RE-Ic-ddw"/>
+                            <constraint firstItem="2Rc-mP-IPy" firstAttribute="trailing" secondItem="Fmq-k1-bSn" secondAttribute="trailing" constant="10" id="B8r-ln-VrJ"/>
+                            <constraint firstItem="Fmq-k1-bSn" firstAttribute="top" secondItem="2Rc-mP-IPy" secondAttribute="top" constant="10" id="bcK-RB-WcA"/>
+                            <constraint firstItem="Fmq-k1-bSn" firstAttribute="leading" secondItem="2Rc-mP-IPy" secondAttribute="leading" constant="10" id="s3T-Uu-5br"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Fmq-k1-bSn" id="caO-8z-HJ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9BW-mp-jGC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="119" y="769"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -206,6 +235,9 @@
                                         <rect key="frame" x="0.0" y="73" width="51" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="vehicalInfoButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rZ-O8-Ob2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

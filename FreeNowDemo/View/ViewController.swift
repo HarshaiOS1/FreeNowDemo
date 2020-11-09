@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var getVehicalListButton: UIButton! {
         didSet {
@@ -29,12 +29,14 @@ class ViewController: UIViewController {
     
     @IBAction func vehicalInfoButtonAction(_ sender: Any) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-    if (sender as! UIButton).tag == 0 {
-        if let vc = storyboard.instantiateViewController(identifier: "HamburgVehicalListViewController") as? HamburgVehicalListViewController {
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
+        if (sender as! UIButton).tag == 0 {
+            if let vc = storyboard.instantiateViewController(identifier: "HamburgVehicalListViewController") as? HamburgVehicalListViewController {
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
         } else if (sender as! UIButton).tag == 1 {
-            
+            if let vc = storyboard.instantiateViewController(identifier: "VehicalsInMapViewController") as? VehicalsInMapViewController {
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
         }
     }
     
